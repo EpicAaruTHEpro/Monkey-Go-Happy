@@ -73,7 +73,7 @@ function draw() {
   
   if (gameState === PLAY) {
     
-    background.velocityX = -6;
+    backGround.velocityX = -6;
     
     if (backGround.x < 0){
       backGround.x = backGround.width/2;
